@@ -1,0 +1,172 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url(../font/Open-sans.ttf);
+   }
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f9f9f9;
+}
+
+.this-page {
+  display: block;
+  width: 1060px;
+  margin: auto;
+  background-color: #ffffff;
+  box-shadow: #dbdbdb 1px 1px 10px;
+}
+
+ body img {
+  margin-top: 50px;
+  margin-left: 40px;
+}
+/*Navig*/
+.header 
+.top-menu {
+  display: inline-block;
+  margin-top: 45px;
+  margin-left: 46px;
+  /*margin-right: 46px;*/
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 424px;
+
+}
+
+nav {
+  display: block;
+  background-color: #535353;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav li {
+	list-style-position: inside;
+  font-family: "Open Sans";
+  font-size: 14.7px;
+}
+
+.top-menu li {
+	display: inline-block;
+
+}
+ .top-menu a:hover {
+  background: #444444;
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
+  padding: 12px 24px;
+}
+.active {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.top-menu a {
+	color: #ffffff;
+  padding: 12px 25px;
+}
+
+.top-menu .us {
+  text-shadow: #3a3a3a 1px 1px 1px;
+}
+/*Menu*/
+.menu {
+    display: block;
+    padding-top: 40px;
+    padding-left: 46px;
+    float: left;
+    width: 240px;
+}
+
+.menu li {
+  font-weight: 300;
+	list-style-type: none;
+  border-bottom: 1px solid #c8c8c8;
+  border-left: 1px solid #c8c8c8;
+  border-right: 1px solid #c8c8c8;
+  padding: 10px 25px;
+  font-family: "Open Sans";
+  font-size: 13.3px;
+}
+.computer {
+  border-top: 1px solid #c8c8c8;
+}
+.menu a {
+  text-decoration: none;
+  color: #656363;
+}
+
+.menu 
+.actived {
+  background-color: #f9f9f9;
+}
+
+.menu 
+.actived-text {
+  color: black;
+  margin-left: 15px;
+}
+
+/*IMG*/
+.picture img {
+  margin-top: 40px;
+  margin-left: 50px;
+  /*margin-right: 46px;*/
+}
+
+/*Content*/
+.content {
+  width: 630px;
+  padding-top: 45px;
+  padding-left: 350px;
+  font-family: "Open Sans";
+  font-size: 13.3px;
+}
+
+/*Footer*/
+.buttom-menu {
+  display: inline-block;
+  margin-top: 65px;
+  margin-left: 46px;
+  /*margin-right: 46px;*/
+  margin-bottom: 60px;
+  background-color: #e1e1e1;
+}
+
+.buttom-menu a {
+	text-decoration: none;
+}
+
+.buttom-menu li {
+	list-style-position: inside;
+  display: inline-block;
+	padding: 12px 30px;
+	margin: 0;
+  font-family: "Open Sans";
+  font-size: 13.3px;
+  color: #656363;
+
+}
+
+.buttom-menu li .activ {
+margin-left: 20px;
+margin-right: 40px;
+}
+.buttom-menu a:hover {
+  text-decoration: underline;
+}
+.us {
+  margin-right: 40px;
+}
+
+.buttom-menu a {
+	color: #2c2c2c;
+}
+.buttom-menu .right {
+  color: #070606;
+  margin-left: 206px;
+
+}
